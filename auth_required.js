@@ -1,6 +1,6 @@
     const token = localStorage.getItem('token');
     if (token === null) {
-        window.location.href = '/login';
+        window.location.href = '/login/index.html';
     } else {       
     $.ajax({
     headers: {
